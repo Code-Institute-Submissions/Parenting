@@ -42,6 +42,8 @@ The aim is to inform users in the best possible way about becoming and being a p
 
 In the future, I would like to add more projects, as a continuity of babies life and write about toddler's life and challanges in their milestones development. Also, I would like to create flyers with a well structered information that can be printable.
 Also, I would like to add more dinamicity and interection for the users.  
+Add more information related to the subject.
+Add supportfor dual language.
 
 
 # Strategy
