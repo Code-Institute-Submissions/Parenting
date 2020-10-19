@@ -430,6 +430,12 @@ footer {
 /*......................................Mobile media up to 500px*/
 
 @media screen and (max-width: 500px) {
+
+    
+    .row navbar {
+        white-space: wrap;
+    }
+
     .header a{
         float: none;
         display: block;
@@ -437,7 +443,7 @@ footer {
     }
 
     .header-right{
-        visibility: hidden;
+        display: none;
     }
 
     .header-left{
@@ -447,6 +453,16 @@ footer {
     .logo{
         width: 100%;
     }
+
+    /*................................Dropdown Menu */
+
+    
+
+
+
+
+
+
 }
 
 /* Header and Menu...................................
