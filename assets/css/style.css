@@ -4,26 +4,78 @@
 
 }
 
+/*.................................Formating display*/
+
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    float: none;
+    
+}
+
+
+/*.......................................Setting paddings/ margins/ text*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    }
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+    color : rgb(82, 174, 188);
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Cardo", sans-serif;
+    font-weight: 200;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+
 body {
     margin-left: 20%;
     margin-right: 20%;
     padding: 0;
     border: 0;
     font-family: "Cardo", sans-serif;
-    text-transform: uppercase;
+    
 }
 /*............................................Header */
+
 
 .header{
     overflow: hidden;
     margin-top: 20px;
-    padding-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .logo {
-    width: 25%;
+    width: 50%;
     float: left;
-    line-height: 75px;
 }
 
 /*Header right.............................*/
@@ -31,9 +83,9 @@ body {
 .header-right {
     float: right;
     text-align: right;
-    width: 100%;
-    margin-top: -16%;
+    margin-top: 0%;
 }
+
 
 .social-media li {
     display: inline;
@@ -41,7 +93,7 @@ body {
 
 .social-media i {
     font-size: 150%;
-    margin-left: 3px;
+    margin-left: 6px;
     padding: 0%;
 }
 
@@ -64,7 +116,8 @@ body {
 .header-right input {
     padding: 2px;
     margin-top: 20px;
-    border: 2px solid lightblue;   
+    border: 2px solid rgb(82, 174, 188);;   
+    width: 70%;
 }
 
 .form {
@@ -72,8 +125,9 @@ body {
     font-family: "Cardo", sans-serif;
     color: rgb(78, 78, 78);
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 20px;
     text-decoration: none;
+    text-transform: uppercase;
 } 
 
 .form:hover {
@@ -85,86 +139,47 @@ body {
 /*Menu...................................*/
 
 .navbar {
-    text-align: center; 
+    text-transform: uppercase;
+    background-color: lightgray;
+    margin-bottom : 20px;
 }
 
 #menu {
     font-size: 16px;
     list-style-type: none;
-    line-height: 32px;
-    height: 32px; 
-    float: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
 }
 
 #menu li {
-    display: inline-block;
-    margin-left: 0px;
-    margin-right: 60px;
-    margin-top: 90px;
+   float: left;
 }
 
 #menu a {
+    display: block;
     text-decoration: none;
     color: rgb(78, 78, 78);
     font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #da798e;
+    background-color: darkgrey;
+    
+    
 }
 
 .active{
      border-bottom: 2px solid #777777;
 }
 
-/*
-.navbar-mobile {
-		display: inline;
-		position: relative;
-		font-size : 14px;
-	}
-
-	.drp-btn {
-		background-color: rgba(100,100,100, .1);
-		color: black;
-		border : none;
-		float : right;
-	}
-	
-	.links-navbar-mobile {
-		display : none;
-		float: right;
-		background-color : rgba(100,100,100, .1);
-		min-width : 90px;
-		text-transform: initial;
-	}
-	
-	.links-navbar-mobile a {
-		text-decoration: none;
-		color : black;
-		font-size : 14px;
-		display : block;
-		text-align: right;
-		z-index : 1;
-	}
-	
-	.links-navbar-mobile a:hover {
-		background-color: rgba(100,100,100, .4);
-	}
-	
-	.navbar-mobile:hover .links-navbar-mobile {
-		display : block;
-	}
-	
-	.navbar-mobile:hover .drp-btn {
-		background-color: rgba(100,100,100, .4);		
-	}
-...............*/
 
 /*..................................................Main Section*/
 
 .main-section {
-
     background-image: url("../images/homebackground.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -216,99 +231,186 @@ body {
 
 /*..................................................Pregnancy Page*/
 
-.page-one {
-    background-image: url("../images/pregnancy.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    height: 1900px;
+/* ..............................week-by-week inspired from resume-miniproject-bootstrap4 Code Institute*/
 
+.section-heading {
+    color: red;
+    margin-bottom: 30px;   
 }
 
-.page-one p {
-    text-transform: initial;
+
+.timeline-item {
+    padding: 5em 2em 0em 2em;
+    position: relative;
+    color:black;
+    border-left: 1px solid;
+    font-size: 0.8em;
+    text-transform: uppercase;
 }
 
-.pregnancy {
-    width: 25%;
-    float: left;
-    line-height: 75px;
+.timeline-item:before {
+    content: attr(data-week);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
 }
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: pink;
+}
+
+.development-items {
+    margin: 30px;
+}
+
 
 .bp {
     background-color: lightgray;
     padding: 1%;
+    text-align: left;
 }
-
 
 .break {
     background-color: white;
-    height: 10px;
+    height: 60px;
 }
-bp p {
+
+.bp p {
     font-size: 18px;
     font-family: "Cardo", sans-serif;
-    margin: auto;
+    margin-top: 1em;
+    text-transform: initial;
+}
+
+.content-text p {
+    text-transform: initial;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+}
+
+.content-text span {
     font-weight: bold;
-    color: rgb(60, 137, 163);
 }
 
-.lowercase {
-    font-size: 16px;
-    text-transform: initial;
+.content-text li {
+    padding: none;
+    margin: none;
 }
 
-/* Inspired from https://code-boxx.com/css-circles-text/#:~:text=To%20add%20a%20block%20of%20text%20into%20the,%3Cdiv%20class%3D%22circle-txt%22%3E%20block%20to%20wrap%20the%20text%20inside.*/
 
-.text-box1 {
-    height: 300px;
-    width: 450px;
-    border-radius: 100%;
+/*.............................................Birth Page*/
+
+.birth {
+    background-image: url("../images/planning2.png");
+    background-attachment: cover;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    height: 320px;
+}
+
+.birth p {
     text-align: center;
-    position: relative;
-    color: whitesmoke;
-    font-size: 18px;
-}
-
-.text-box2 {
-    height: 300px;
-    width: 450px;
-    border-radius: 100%;
-    text-align: center;
-    position: relative;
-    color: whitesmoke;
-    font-size: 18px;
     margin-left: 50%;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px; 
+    font-family: "Cardo", sans-serif;
 }
 
-.text1 {
-    font-size: 16px;
-    text-transform: initial;
-    text-align: center;
-    border-radius: 100%;
-    margin: 1%;
-    color: whitesmoke;
+.subject-separation {
+    padding-bottom: 10px;
 }
 
-.text2 {
-    font-size: 16px;
-    text-transform: initial;
+.img-left img {
+    height: 100%;
+    width: 100%;
+}
+
+.lowercase-birth {
+    text-align: right;
+    margin-right: 7%;
+    margin-top: 8%;
+}
+
+
+/*.............................................Subscribe*/
+/*Form is inspired from "I love running project"*/
+
+.form-news {
+    background-image: url("../images/weekbyweek.png");
+    background-attachment: cover;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 600px;
+}
+
+.signup-form {
+    margin-top: 120px;
+    color: #fff;
+    background-color: rgba(60,60,60,.4);
+    max-width: 400px;
+    max-height: 400px;
+    position: absolute;
+    left: 35%;
+    padding: 30px;
+}
+
+.fa-baby {
+    color: #fafafa;
+    margin-bottom: 40px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+    border-radius: 2px;
+    
+}
+
+.button-news {
+    border-radius: 1px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
-    border-radius: 100%;
-    margin: 1%;
-    color: whitesmoke;
-    margin-left: 50%;
+    font-size: 100%;
+    background-color: #da798e;
+    color: #fafafa;
+    font-family: "Cardo", sans-serif;
+    
+}
+
+.button-news:hover {
+    background-color:  rgb(102, 154, 173);
 }
 
 
 /*..............................................Footer*/
 
 footer {
-    height: 120px;
-    background-color: rgba(78,78,78, .1);
+    height: auto;
+    background-color: lightgray;
     margin-top: 5px;
-
 }
 
 
@@ -322,26 +424,45 @@ footer {
 
 .social-links i {
     font-size: 150%;
-    padding: 3%;
-    margin: 1%;
+    margin: 1.5em;
 }
 
-@media screen and (max-width: 500px) {
+/*......................................Mobile media up to 500px*/
 
-/* Header and Menu...................................*/
+@media screen and (max-width: 500px) {
+    .header a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right{
+        visibility: hidden;
+    }
+
+    .header-left{
+        float: none;
+    }
+
+    .logo{
+        width: 100%;
+    }
+}
+
+/* Header and Menu...................................
 	.navbar {
-		display: none;
+		visibility: hidden;
 	} 
 			
 	.header-right{
-		display: none;
+		visibility: hidden;
 	}
 
 	.header {
 		height: 80px;
 	}
 	
-	.navbar-mobile {
+	/*.navbar-mobile {
 		display: inline;
 		position: relative;
 		font-size : 14px;
@@ -354,7 +475,7 @@ footer {
 		float : right;
 	}
 	
-	.links-navbar-mobile {
+	/*.links-navbar-mobile {
 		display : none;
 		float: right;
 		background-color : rgba(100,100,100, .1);
@@ -381,28 +502,34 @@ footer {
 	
 	.navbar-mobile:hover .drp-btn {
 		background-color: rgba(100,100,100, .4);		
-	}
+	}*/
 
  
- /*Content...................................*/
+ /*Content...................................
  	.main-section div{
-		min-width: 95%;
+		width: 95%;
 		float: left;
+        margin: 2.5%;
 	}
 	
 	.main-section h1{
 		font-size: 24px;
 	}
+
+    .social-links i {
+    font-size: 100%;
+    margin: 0.5em;
+    }
  
 }
 
 
+/*......................................Mobile media up to 1100px
 
-
-@media screen and (max-width: 943px) {
-/* Header and Menu...................................*/
+@media screen and (max-width: 1100px) {
+/* Header and Menu...................................
 	.navbar {
-		display: none;
+		visibility: hidden;
 	} 
 			
 	.header-right{
@@ -413,7 +540,7 @@ footer {
 		height: 80px;
 	}
 	
-	.navbar-mobile {
+	/*.navbar-mobile {
 		display: inline;
 		position: relative;
 		font-size : 14px;
@@ -452,17 +579,23 @@ footer {
 	
 	.navbar-mobile:hover .drp-btn {
 		background-color: rgba(100,100,100, .4);		
-	}
+	}*/
  
  
- /*Content...................................*/
+ /*Content...................................
  	.main-section div{
-		min-width: 95%;
+		width: 95%;
 		float: left;
+        margin: 2.5%;
 	}
 	
 	.main-section h1{
 		font-size: 26px;
 	}
+
+    .social-links i {
+    font-size: 100%;
+    margin: 1em;
+    }
 	
-}
+}*/
