@@ -2,7 +2,7 @@
 
 User-Centric Frontend Development Milestone Project - Code Institute
 
-## A guideline for parents to discover information about pregnancy, giving birth and being a parent in their journey.
+A guideline for parents to discover information about pregnancy, giving birth and being a parent in their journey.
 
 # User Experience (UX)
 ## User stories
@@ -35,7 +35,10 @@ The aim is to inform users in the best possible way about becoming and being a p
 # Features
 
 - Responsive on different device sizes;
-- It has a clear navigation, interactive buttons, reliable and useful information, social media integration.
+- It has a clear navigation, 
+- reliable and useful information, 
+- social media platforms
+- sign up to newsletter form
 
 
 # Features Left to Implement
@@ -60,16 +63,16 @@ The goal was to create an informativ website with easy to access and find the ma
 7. Google Fonts
 8. GitHub
 
-# Testing
+## Testing
 
 - W3C Markup Validator - (https://validator.w3.org/nu/#textarea)
 - W3C CSS Validator - (http://jigsaw.w3.org/css-validator/validator$link)
 
-# Further Testing
+### Further Testing
 - The website was tested on Google Chrome, Microsoft Edge;
 - The website was viewed on a variety of devices such as Laptop 17" and 15.6", iPhone7, iPhone 11;
 
-# Known Bugs
+### Known Bugs
 
 - On iPad the menu and footer are not align properly;
 
