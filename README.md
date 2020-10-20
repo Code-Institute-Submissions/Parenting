@@ -63,7 +63,7 @@ The goal was to create an informativ website with easy to access and find the ma
 # Testing
 
 - W3C Markup Validator - ()
-- W3C CSS Validator - ()
+- W3C CSS Validator - (http://jigsaw.w3.org/css-validator/validator$link)
 
 # Further Testing
 - The website was tested on Google Chrome, Microsoft Edge, ...;
