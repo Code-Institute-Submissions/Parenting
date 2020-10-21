@@ -65,8 +65,8 @@ The goal was to create an informativ website with easy to access and find the ma
 
 ## Testing
 
-- W3C Markup Validator - (https://validator.w3.org/nu/#textarea)
-- W3C CSS Validator - (http://jigsaw.w3.org/css-validator/validator$link)
+- W3C Markup Validator - [View]()
+- W3C CSS Validator - ()
 
 ### Further Testing
 - The website was tested on Google Chrome, Microsoft Edge;
