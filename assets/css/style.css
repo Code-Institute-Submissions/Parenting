@@ -34,12 +34,6 @@ h5 {
 	display: table;
 }
 
-.section-column {
-	display: table-cell;
-	padding: 0 30px 30px;
-	float: none;
-}
-
 .section-heading {
 	font-family: "Cardo", sans-serif;
 	font-weight: 200;
@@ -77,7 +71,7 @@ body {
 }
 
 .social-media i {
-	font-size: 150%;
+	font-size: 130%;
 	margin-left: 6px;
 	padding: 0%;
 }
@@ -118,7 +112,8 @@ body {
 .navbar {
 	text-transform: uppercase;
 	background-color: lightgray;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
+    padding-inline-start: 0px;
 }
 
 #menu {
@@ -126,6 +121,7 @@ body {
 	margin: 0;
 	overflow: hidden;
 	background-color: lightgray;
+    padding-inline-start: 0px;
 }
 
 #menu li {
@@ -133,25 +129,21 @@ body {
 }
 
 #menu a {
-	display: block;
+	display: inline;
 	text-decoration: none;
     font-size: 14px;
 	color: rgb(78, 78, 78);
 	font-weight: bold;
 	text-align: center;
-	padding: 12px 14px;
+	padding: 10px 12px;
 }
 
 #menu a:hover {
 	background-color: darkgrey;
 }
 
-.active {
-	border-bottom: 2px solid #777777;
-}
-
 .main-section {
-	background-image: url("../images/previewindex.jpg");
+	background-image: url("../images/indexbg.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -162,7 +154,7 @@ body {
 	width: 45%;
 	float: left;
 	text-align: center;
-	padding-top: 10%;
+	padding: 0%;
 	height: 250px;
 	background-color: rgba(150, 150, 150, 0.7);
 	margin: 2.5%;
@@ -177,6 +169,11 @@ body {
 	text-transform: initial;
 	color: white;
 	font-size: 18px;
+    margin: 2%;
+}
+
+.main-section h1 {
+    padding: 5%;
 }
 
 .main-section-center {
@@ -196,6 +193,8 @@ body {
 .main-section h1:hover {
 	transform: scale(1.1);
 }
+
+/*.........................................Pregnancy Page*/
 
 .section-heading {
 	color: red;
@@ -239,6 +238,8 @@ body {
 .development-items {
 	margin: 30px;
 }
+
+/*...................................Birth Page*/
 
 .bp {
 	background-color: lightgray;
@@ -300,8 +301,11 @@ body {
 	margin-top: 8%;
 }
 
+
+/*....................................................Subscribe Page*/
+
 .form-news {
-	background-image: url("../images/weekbyweek.png");
+	background-image: url("../images/subscribebg.png");
 	background-attachment: scroll;
 	background-size: cover;
 	background-position: center;
@@ -352,6 +356,8 @@ button:hover {
 	background-color: rgb(102, 154, 173);
 }
 
+/*............................................Footer*/
+
 footer {
 	height: auto;
 	background-color: lightgray;
@@ -360,6 +366,8 @@ footer {
 
 .social-links {
 	text-align: center;
+    padding-inline-start: 0px;
+    padding : 0px;
 }
 
 .social-links li {
@@ -371,102 +379,147 @@ footer {
 	margin: 1.5em;
 }
 
-@media screen and (max-width: 500px) {
-	.row navbar {
+@media screen and (max-width: 440px) {
+
+    body {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .navbar {
 		white-space: nowrap;
 	}
+
 	.header a {
-		float: none;
-		display: block;
-		text-align: left;
+		display: inline;
+		text-align: right;
 	}
 	.header-right {
-		float: none;
-        display: inline;
-        text-align: left;
+        margin-top: -33%;
 	}
+    .form {
+        font-size: 10px;
+        padding-top: 10px 5px 0 0;
+    }
+
+    .social-media i {
+        margin-left: 6px;
+        padding: 0%;
+    }
+
 	.header-left {
 		float: none;
 	}
-	.logo {
-		width: 30%%;
-	}
+
+
 	.main-section div {
-		width: 35%;
+		width: 95%;
 	}
+
     #menu a{
         font-size: 10px;
-        text-align: left;
     }
     
     .social-links i {
-        font-size: 50%;
-        margin: 0.5em;
+        font-size: 100%;
+    }
+
+   .signup-form {
+        max-width: 80%;
+	    max-height: 80%;
+        left: 10%;
    }
-}
 
+   .signup-form h2 {
+        width: auto;
+        font-size: 12px;
+   }
 
-@media screen and (max-width: 1100px) {
-	.row navbar {
-		white-space: nowrap;
-	}
-	.header a {
-		float: none;
-		display: block;
-		text-align: left;
-	}
-	.header-right {
-		display: none;
-	}
-	.header-left {
-		float: none;
-	}
-	.logo {
-		width: 100%;
-	}
-	.main-section div {
-		width: 95%;
-	}
-    #menu a{
+    .text-input {
         font-size: 8px;
-        display: inline-block;
-        text-align: center;
-    }
-    .social-links i {
-	font-size: 80%;
-	margin: 0.75em;
-    }
+        display: center;
 }
 
-@media screen and (max-width: 1285px) {
-    .row navbar {
+    button {
+        padding: 1px 2px 1px 2px;
+        text-align: center;
+        font-size: 12px;
+}
+
+    .fa-baby {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width: 441px) and (max-width: 766px) {
+    body {
+	margin-left: 2%;
+	margin-right: 2%;
+    }  
+
+	.navbar {
 		white-space: nowrap;
 	}
-	.header a {
-		float: none;
-		display: block;
-		text-align: left;
-	}
+
 	.header-right {
-		display: none;
+        margin-top: -23%;
 	}
-	.header-left {
-		float: none;
-	}
-	.logo {
-		width: 100%;
-	}
+
+
 	.main-section div {
-		width: 95%;
+		width: 45%;
 	}
     #menu a{
         font-size: 10px;
-        display: block;
-        text-align: center;
     }
+
     .social-links i {
 	font-size: 100%;
-	margin: 1em;
     }
+
+   .signup-form {
+        max-width: 80%;
+	    max-height: 80%;
+        left: 10%;
+   }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1100px) {
+    body {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+ 
+    .navbar {
+		white-space: nowrap;
+	}
+	.header a {
+		float: none;
+		display: inline-block;
+	}
+
+	.header-left {
+		float: none;
+	}
+	.main-section div {
+		width: 45%;
+	}
+    
+    #menu a{
+        font-size: 16px;
+    }
+
+    .social-links i {
+	font-size: 150%;
+    }
+
+   .signup-form {
+        max-width: 80%;
+	    max-height: 80%;
+        left: 10%;
+   }
 
 }
