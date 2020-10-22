@@ -1,47 +1,90 @@
-# Parenting
+# Pregnancy, Birth and Baby
 
-User-Centric Frontend Development Milestone Project - Code Institute
+[View the project here](https://domnicah.github.io/Parenting/)
 
-A guideline for parents to discover information about pregnancy, giving birth and being a parent in their journey.
 
-# User Experience (UX)
-## User stories
-This website is addressing to people in their parenthood start and to women who are starting their journey as a mom. 
+The project intends to be a guideline for women to discover information about pregnancy, giving 
+birth and babies. The aim is to inform users in the best possible way about becoming and being a
+parent, and to raise awarness about the most important steps in their journey as a parent.
 
-First Time Visitor Goals
+It is designed to be responsive on a range of devices and easy to navigate to find information
+related to the subject.
 
-- As a user, I would expect to find reliable and usefull information;
-- As a user, I would expect to be intuitive build, the information to be easy to find;
-- As a user, I would expect to find well structered subjects;
-- As a user, I would expect to be easy to navigate to find content.
 
-Returning Visitor Goals
+
+<h2 align="center"><img src="assets/images/responsive.png"></h2>
+
+
+
+
+
+## User Experience (UX)
+
+  ### User stories
+
+   #### First Time Visitors Goals
+
+- As a woman, I want to find reliable and useful information about pregnancy and babies.
+- As a woman, I want to find an intuitive website, easy to navigate to find information.
+- As a woman, I want to find well-structered information related to the topics.
+- As a woman, I want to find a signup form for the latest news regarding conceiving, pregnancy,
+birth, babies and any other relevant articles. 
+
+#### Returning Visitor Goals
 
 - As a returning visitor, I want to find useful and updated information;
-- As a returning vistor, I would like to find a community support and the best way to get in contact with supporting organisations.
+- As a returning vistor, I would like to find a community support and the best way to get in 
+contact with supporting organisations.
+- As a returning visitor, I want to find social links to a comunity build around the website topics.
 
 
-The aim is to inform users in the best possible way about becoming and being a parent, and to raise awarness about the most important steps in their journey as a parent. 
+#### Frecvent Users Goals
 
-# Design
+-  As a Frequent User, I want to find if there are new topics and recommendations. 
+-  As a Frequent User, I want to subscribe to the newsletter, so I am informed about any updates
+ to the website and it's content.
+-  As a Frequent User, I want to find new information and tools relevant to Mothering. 
 
-- The color scheme used is grey-teal and the colors used are blue, grey, pink, black and white.
-- The main font used is "Cardo" with "Sans Serif" as a backup font.
-- The images used are representative for the subjects approached with high resolution.
 
-# Wireframes
--Wireframes for Main Pages on desktop, smartphone and tablet - [View](https://github.com/DomnicaH/Parenting/tree/main/wireframes)
+### Design
+
+#### Imagery
+
+The logo I created is useful for the site because is underling the title of the website,
+associating those three elements with the meaning of being pregnant, delivery the baby
+and the baby. 
+I choose a neutral home page background image, as to be in concordance to the other pages,
+making the reading of the information and navigation through the website more easily. The other
+pages images were chosen in order to be relevant to the topic and to be easily to follow.
+The images used are representative for the subjects approached and they have a high resolution for a better style. 
+
+#### Colors
+
+The color scheme chosen is associated with the babies, pink and blue, and the grey used makes
+the information to be followed easily.  
+
+#### Typography
+
+The main font used is "Cardo" with "Sans Serif" as a backup font. I chosen this font because
+I considered is easy to follow and read. 
+
+
+### Wireframes
+
+I created wireframes for Main Pages on desktop, smartphone and tablet using Balsamiq - [View](https://github.com/DomnicaH/Parenting/tree/main/wireframes)
+On all pages I chosen to take out search bar as I considered is not very useful on this stage 
+of the project.
+The pregnancy.html page doesn't follow the structure entirely, as I chosed to show it on vertical rather
+than horizontal as I found easily to integrated on the page. 
+
 
 # Features
 
-- Responsive on different device sizes;
-- It has a clear navigation, 
-- reliable and useful information, 
-- social media platforms
-- sign up to newsletter form
+The most important feature I concentrated more was to be responsive on different device sizes. ALso it has
+a clear navigation, reliable and useful information, social media platforms and sign up to newsletter form.
 
 
-# Features Left to Implement
+# Features I want to add
 
 In the future, I would like to add more projects, as a continuity of babies life and write about toddler's life and challanges in their milestones development. Also, I would like to create flyers with a well structered information integrated in the webpages that can be printable.
 Also, I would like to add more dinamicity and interection for the users, like a forum for discusion and links to useful organisation relevant for the site users.
@@ -59,14 +102,15 @@ The goal was to create an informativ website with easy to access and find the ma
 3. Bootstrap (4.5.2)
 4. Balsamiq 
 5. Canva
-6. Font Awesome
-7. Google Fonts
-8. GitHub
+6. Unsplash
+7. Font Awesome
+8. Google Fonts
+9. GitHub
 
 ## Testing
 
 - W3C Markup Validator - [View]()
-- W3C CSS Validator - ()
+- W3C CSS Validator - [View](https://github.com/DomnicaH/Parenting/tree/main/documentation)
 
 ### Further Testing
 - The website was tested on Google Chrome, Microsoft Edge;
@@ -74,7 +118,7 @@ The goal was to create an informativ website with easy to access and find the ma
 
 ### Known Bugs
 
-- On iPad the menu and footer are not align properly;
+
 
 # Deployment
 
