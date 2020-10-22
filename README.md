@@ -148,9 +148,8 @@ The W3C CSS Validator Services and W3C Markup Validator was used to validate eve
 
 ### Further Testing
 
-- The website was tested on Microsoft Edge, Google Chrome. [View]()
-
-- The website was viewed on a variety of devices such as Laptop 17" and 15.6", iPhone7, iPhone 11.
+- The website was tested on Microsoft Edge, Google Chrome. [View](https://github.com/DomnicaH/Parenting/tree/main/documentation/testing)
+- The website was viewed on a variety of devices such as Laptop 17" and 15.6", iPhone7, iPhone11.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
