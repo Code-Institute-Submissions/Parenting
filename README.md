@@ -39,7 +39,7 @@ It is designed to be responsive on a range of devices and easy to navigate to fi
 #### Imagery
 
 The logo I created is useful for the site because is underling the title of the website, associating those three elements with the meaning of being pregnant, delivery the baby and the baby. 
-I choose a neutral home page background image, as to be in concordance to the other pages, making the reading of the information and navigation through the website more easily. The otherpages images were chosen to be relevant to the topic and to be easy to follow.
+I choose a neutral home page background image as to be in concordance to the other pages, and a neutral color scheme for the other pages as well making the reading of the information and navigation through the website more easily. The other pages images were chosen to be relevant to the topic and to be easy to follow.
 The images used are representative for the subjects approached and they have a high resolution for a better style. 
 
 #### Colors
@@ -53,6 +53,7 @@ The main font used is "Cardo" with "Sans Serif" as a backup font. I chose this f
 ## Wireframes
 
 I created wireframes for Main Pages on desktop, smartphone and tablet using Balsamiq - [View](https://github.com/DomnicaH/Parenting/tree/main/wireframes) <br/>
+
 On all pages I chosen to take out search bar as I considered is not very useful on this stage of the project and as the mentor, Aaron suggested.<br/>
 The pregnancy.html page doesn't follow the structure entirely, as I chose to show it on vertical rather than horizontal as I found it easy to integrate on the page.
 Also, the menu on small devices is not a dropdown menu with the icon. 
@@ -149,7 +150,7 @@ The W3C CSS Validator Services and W3C Markup Validator was used to validate eve
 ### Further Testing
 
 - The website was tested on Microsoft Edge, Google Chrome. [View](https://github.com/DomnicaH/Parenting/tree/main/documentation/testing)
-- The website was viewed on a variety of devices such as Laptop 17" and 15.6", iPhone7, iPhone11.
+- The website was viewed on a variety of devices such as Laptop 17" and 15.6", iPhone7, iPhone11. [View](https://github.com/DomnicaH/Parenting/tree/main/documentation/testing)
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
@@ -177,7 +178,7 @@ The project was deployed to GitHub Pages using the following steps...
  All content was written by me.
 
 ## Media
-The logo image was created by me in Canva; the other images used are from Canva and Unsplash. 
+The logo image was created by me in Canva; the other images used are download from Canva and Unsplash. 
 
 ## Acknowledgements
 My Mentor for continuous helpful feedback.
